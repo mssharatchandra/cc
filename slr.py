@@ -152,8 +152,7 @@ def main():
     for s in j: 
         print("Item{}:".format(ctr))
         for i in s:
-    
-        print("\t", i)
+            print("\t", i)
         ctr+=1
     table=make_table(j)
     print('_________________________________________________________________')
